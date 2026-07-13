@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Support — Hekta / الدعم — هكتا</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1c1c1e;
+    --muted: #6b6b70;
+    --accent: #0a84ff;
+    --border: #e3e3e8;
+    --code-bg: #f2f2f7;
+    --divider: #d0d0d5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #000000;
+      --fg: #e9e9ec;
+      --muted: #9a9aa0;
+      --accent: #0a84ff;
+      --border: #2c2c2e;
+      --code-bg: #1c1c1e;
+      --divider: #3a3a3c;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 28px 20px 64px;
+  }
+  .langbar {
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 15px;
+    z-index: 10;
+  }
+  .langbar a { color: var(--accent); text-decoration: none; font-weight: 600; }
+  .langbar a:hover { text-decoration: underline; }
+  .langbar span { color: var(--muted); margin: 0 10px; }
+  h1 { font-size: 1.9rem; line-height: 1.25; margin: 0.4em 0 0.1em; }
+  h2 { font-size: 1.35rem; line-height: 1.3; margin: 1.8em 0 0.5em; padding-top: 0.3em; }
+  h3 { font-size: 1.1rem; margin: 1.4em 0 0.4em; }
+  p, ul, ol, table { margin: 0.75em 0; }
+  ul, ol { padding-inline-start: 1.4em; }
+  li { margin: 0.35em 0; }
+  a { color: var(--accent); }
+  strong { font-weight: 600; }
+  .brand { font-size: 1.15rem; font-weight: 600; color: var(--muted); margin: 0 0 0.6em; }
+  .meta { color: var(--muted); font-size: 0.95rem; margin: 0.2em 0; }
+  .meta strong { color: var(--fg); }
+  .cta {
+    display: inline-block;
+    background: var(--accent);
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 11px 20px;
+    border-radius: 12px;
+    margin: 0.4em 0;
+  }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.9em;
+    background: var(--code-bg);
+    padding: 1px 5px;
+    border-radius: 4px;
+  }
+  hr.rule { border: 0; border-top: 1px solid var(--border); margin: 1.6em 0; }
+  .section-divider {
+    border: 0;
+    border-top: 2px solid var(--divider);
+    margin: 3em 0 2.4em;
+  }
+  .contact-note {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.95rem;
+    border-top: 1px solid var(--border);
+    margin-top: 2.4em;
+    padding-top: 1.4em;
+  }
+  .contact-note a { font-weight: 600; }
+  /* Arabic section */
+  #ar {
+    font-family: "SF Arabic", "Geeza Pro", "Segoe UI", Tahoma, "Arial", sans-serif;
+    line-height: 1.9;
+  }
+  .back-top { font-size: 0.9rem; }
+  .back-top a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+
+<div class="langbar" dir="ltr">
+  <a href="#en">English</a><span>|</span><a href="#ar">العربية</a>
+</div>
+
+<div class="wrap">
+
+<!-- ==================== ENGLISH ==================== -->
+<section id="en" dir="ltr" lang="en">
+
+<h1>Hekta Support</h1>
+<p class="brand">Hekta — your personal financial operating system</p>
+<p class="meta"><strong>Last updated:</strong> 2026-07-13</p>
+
+<hr class="rule">
+
+<h2>Contact us</h2>
+<p>Questions, bug reports, feature ideas, or help with your account — email us and a human will reply. We typically respond <strong>within 2 business days</strong>.</p>
+<p><a class="cta" href="mailto:support@hekta.money">Email support@hekta.money</a></p>
+<p class="meta">Please include your device model, iOS version, and the app version (Settings → About) so we can help faster. Never send passwords or full card numbers by email.</p>
+
+<h2>Frequently asked questions</h2>
+
+<h3>How do I add or track my money?</h3>
+<p>Just tell the app. Type or speak what you spent (for example, “spent 50 on coffee”), or scan a paper receipt or a bank-SMS screenshot. Hekta reads it and proposes a clean record — nothing is saved until you tap <strong>Confirm</strong>. You can also add anything manually.</p>
+
+<h3>How do I manage or cancel my Premium subscription?</h3>
+<p>Premium is billed through your Apple ID. To view, change, or cancel it, open the iOS <strong>Settings app → your name → Subscriptions → Hekta</strong>, or use <strong>Manage Subscription</strong> inside Hekta. Subscriptions renew automatically unless canceled at least 24 hours before the end of the current period. To restore a purchase on a new device, use <strong>Restore Purchases</strong> on the paywall.</p>
+
+<h3>How do I export my data?</h3>
+<p>Open <strong>Settings → Data → Export</strong> to download your data as CSV and PDF at any time.</p>
+
+<h3>How do I delete my account?</h3>
+<p>Open <strong>Settings → Account → Delete account</strong>. Deletion requires typed-email confirmation, erases all of your data, and revokes Sign in with Apple. We recommend exporting your data first — deletion cannot be undone.</p>
+
+<h3>Is my financial data private?</h3>
+<p>Yes. Hekta shows no ads, uses no third-party analytics, and never sells your data. Your records are stored in the European Union and protected so that only you can read them. Receipt images are processed once and then deleted, and your voice recordings are never stored by us. See our <a href="https://legal.hekta.money/privacy/">Privacy Policy</a>.</p>
+
+<h3>How does the AI assistant, voice, and receipt scan work?</h3>
+<p>The assistant only <strong>proposes</strong> — every change is shown to you and must be confirmed before anything is saved. Voice is recorded only when you tap the microphone, used for transcription only, and never used to train AI models. The app never reads your messages in the background; it only sees content you deliberately share with it.</p>
+
+<h3>Which devices and languages are supported?</h3>
+<p>Hekta is an iPhone app (iOS 26 and later), fully bilingual in <strong>Arabic and English</strong> with native right-to-left layout. To switch language, use Settings inside the app.</p>
+
+<h2>Legal</h2>
+<ul>
+  <li><a href="https://legal.hekta.money/privacy/">Privacy Policy</a></li>
+  <li><a href="https://legal.hekta.money/terms/">Terms of Use</a></li>
+</ul>
+
+<p class="back-top" dir="ltr">— <a href="#ar">العربية ↓</a></p>
+
+</section>
+
+<hr class="section-divider">
+
+<!-- ==================== ARABIC ==================== -->
+<section id="ar" dir="rtl" lang="ar">
+
+<h1>دعم هكتا</h1>
+<p class="brand">هكتا — نظام تشغيل حياتك المالية</p>
+<p class="meta"><strong>آخر تحديث:</strong> 2026-07-13</p>
+
+<hr class="rule">
+
+<h2>تواصل معنا</h2>
+<p>أي سؤال، أو بلاغ خطأ، أو اقتراح ميزة، أو مساعدة في حسابك — راسلنا وسيردّ عليك شخص حقيقي. نردّ عادةً <strong>خلال يومَي عمل</strong>.</p>
+<p><a class="cta" href="mailto:support@hekta.money">راسلنا على support@hekta.money</a></p>
+<p class="meta">من فضلك اذكر طراز جهازك، وإصدار iOS، وإصدار التطبيق (الإعدادات ← حول) لنساعدك أسرع. لا ترسل كلمات المرور أو أرقام البطاقات كاملة عبر البريد أبدًا.</p>
+
+<h2>الأسئلة الشائعة</h2>
+
+<h3>كيف أضيف أموالي وأتابعها؟</h3>
+<p>فقط كلّم التطبيق. اكتب أو تحدّث بما صرفته (مثلًا: «صرفت 50 على قهوة»)، أو امسح إيصالًا ورقيًا أو لقطة رسالة بنكية. يقرؤها هكتا ويقترح سجلًّا جاهزًا — ولا يُحفَظ أي شيء قبل أن تضغط <strong>تأكيد</strong>. ويمكنك الإضافة يدويًا في أي وقت.</p>
+
+<h3>كيف أدير اشتراك Premium أو ألغيه؟</h3>
+<p>يُحصَّل اشتراك Premium عبر حساب Apple ID. لعرضه أو تغييره أو إلغائه، افتح <strong>تطبيق الإعدادات ← اسمك ← الاشتراكات ← هكتا</strong>، أو استخدم <strong>إدارة الاشتراك</strong> داخل هكتا. يتجدّد الاشتراك تلقائيًا ما لم يُلغَ قبل نهاية المدة الحالية بـ24 ساعة على الأقل. لاستعادة عملية شراء على جهاز جديد، استخدم <strong>استعادة المشتريات</strong> في شاشة الاشتراك.</p>
+
+<h3>كيف أصدّر بياناتي؟</h3>
+<p>افتح <strong>الإعدادات ← البيانات ← تصدير</strong> لتنزيل بياناتك بصيغتَي CSV وPDF في أي وقت.</p>
+
+<h3>كيف أحذف حسابي؟</h3>
+<p>افتح <strong>الإعدادات ← الحساب ← حذف الحساب</strong>. يتطلّب الحذف تأكيدًا بكتابة بريدك، ويمحو كل بياناتك، ويلغي تسجيل الدخول عبر Apple. ننصح بتصدير بياناتك أولًا — لا يمكن التراجع عن الحذف.</p>
+
+<h3>هل بياناتي المالية خاصة؟</h3>
+<p>نعم. لا يعرض هكتا إعلانات، ولا يستخدم تحليلات من طرف ثالث، ولا يبيع بياناتك أبدًا. تُخزَّن سجلّاتك في الاتحاد الأوروبي ومحميّة بحيث لا يقرؤها سواك. تُعالَج صور الإيصالات مرة واحدة ثم تُحذَف، ولا نخزّن تسجيلاتك الصوتية إطلاقًا. راجع <a href="https://legal.hekta.money/privacy/">سياسة الخصوصية</a>.</p>
+
+<h3>كيف يعمل المساعد الذكي والصوت ومسح الإيصالات؟</h3>
+<p>المساعد <strong>يقترح</strong> فقط — كل تغيير يُعرَض عليك ويجب تأكيده قبل حفظ أي شيء. لا يُسجَّل الصوت إلا عند الضغط على الميكروفون، ويُستخدَم للتحويل إلى نص فقط، ولا يُستخدَم أبدًا لتدريب نماذج الذكاء الاصطناعي. لا يقرأ التطبيق رسائلك في الخلفية؛ بل يرى فقط ما تشاركه معه عمدًا.</p>
+
+<h3>ما الأجهزة واللغات المدعومة؟</h3>
+<p>هكتا تطبيق لآيفون (iOS 26 وأحدث)، ثنائي اللغة بالكامل <strong>عربي وإنجليزي</strong> بتخطيط أصيل من اليمين إلى اليسار. لتبديل اللغة، استخدم الإعدادات داخل التطبيق.</p>
+
+<h2>القانوني</h2>
+<ul>
+  <li><a href="https://legal.hekta.money/privacy/">سياسة الخصوصية</a></li>
+  <li><a href="https://legal.hekta.money/terms/">شروط الاستخدام</a></li>
+</ul>
+
+</section>
+
+<div class="contact-note" dir="ltr">
+  Hekta · <a href="mailto:support@hekta.money">support@hekta.money</a>
+</div>
+
+</div>
+</body>
+</html>
